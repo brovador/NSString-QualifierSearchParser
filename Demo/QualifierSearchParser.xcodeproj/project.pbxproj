@@ -12,19 +12,11 @@
 		1C9C0EE91AE7A4F7001E4DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0EE81AE7A4F7001E4DA2 /* ViewController.m */; };
 		1C9C0EEC1AE7A4F7001E4DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9C0EEA1AE7A4F7001E4DA2 /* Main.storyboard */; };
 		1C9C0EEE1AE7A4F7001E4DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9C0EED1AE7A4F7001E4DA2 /* Images.xcassets */; };
-		1C9C0EF11AE7A4F7001E4DA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9C0EEF1AE7A4F7001E4DA2 /* LaunchScreen.xib */; };
-		1C9C0EFD1AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0EFC1AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.m */; };
+		1C9C0F0B1AE7B916001E4DA2 /* NSString+QualifierSearchParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0F0A1AE7B916001E4DA2 /* NSString+QualifierSearchParser.m */; };
+		1C9C0F0E1AE7BA3B001E4DA2 /* SampleEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0F0D1AE7BA3B001E4DA2 /* SampleEntity.m */; };
+		1C9C0F111AE7BA93001E4DA2 /* SampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0F101AE7BA93001E4DA2 /* SampleModel.m */; };
+		1C9C0F141AE7C101001E4DA2 /* SampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9C0F131AE7C100001E4DA2 /* SampleCell.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1C9C0EF71AE7A4F8001E4DA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1C9C0ED51AE7A4F7001E4DA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C9C0EDC1AE7A4F7001E4DA2;
-			remoteInfo = AttributedSearchFiltering;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C9C0EDD1AE7A4F7001E4DA2 /* AttributedSearchFiltering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttributedSearchFiltering.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,21 +28,18 @@
 		1C9C0EE81AE7A4F7001E4DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C9C0EEB1AE7A4F7001E4DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C9C0EED1AE7A4F7001E4DA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1C9C0EF01AE7A4F7001E4DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1C9C0EF61AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributedSearchFilteringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C9C0EFB1AE7A4F8001E4DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C9C0EFC1AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributedSearchFilteringTests.m; sourceTree = "<group>"; };
+		1C9C0F091AE7B916001E4DA2 /* NSString+QualifierSearchParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+QualifierSearchParser.h"; path = "../../NSString+QualifierSearchParser.h"; sourceTree = "<group>"; };
+		1C9C0F0A1AE7B916001E4DA2 /* NSString+QualifierSearchParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+QualifierSearchParser.m"; path = "../../NSString+QualifierSearchParser.m"; sourceTree = "<group>"; };
+		1C9C0F0C1AE7BA3B001E4DA2 /* SampleEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleEntity.h; sourceTree = "<group>"; };
+		1C9C0F0D1AE7BA3B001E4DA2 /* SampleEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleEntity.m; sourceTree = "<group>"; };
+		1C9C0F0F1AE7BA93001E4DA2 /* SampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleModel.h; sourceTree = "<group>"; };
+		1C9C0F101AE7BA93001E4DA2 /* SampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleModel.m; sourceTree = "<group>"; };
+		1C9C0F121AE7C100001E4DA2 /* SampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCell.h; sourceTree = "<group>"; };
+		1C9C0F131AE7C100001E4DA2 /* SampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1C9C0EDA1AE7A4F7001E4DA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C9C0EF31AE7A4F8001E4DA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +52,7 @@
 		1C9C0ED41AE7A4F7001E4DA2 = {
 			isa = PBXGroup;
 			children = (
-				1C9C0EDF1AE7A4F7001E4DA2 /* AttributedSearchFiltering */,
-				1C9C0EF91AE7A4F8001E4DA2 /* AttributedSearchFilteringTests */,
+				1C9C0EDF1AE7A4F7001E4DA2 /* QualifierSearchParser */,
 				1C9C0EDE1AE7A4F7001E4DA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,24 +61,30 @@
 			isa = PBXGroup;
 			children = (
 				1C9C0EDD1AE7A4F7001E4DA2 /* AttributedSearchFiltering.app */,
-				1C9C0EF61AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C9C0EDF1AE7A4F7001E4DA2 /* AttributedSearchFiltering */ = {
+		1C9C0EDF1AE7A4F7001E4DA2 /* QualifierSearchParser */ = {
 			isa = PBXGroup;
 			children = (
+				1C9C0F091AE7B916001E4DA2 /* NSString+QualifierSearchParser.h */,
+				1C9C0F0A1AE7B916001E4DA2 /* NSString+QualifierSearchParser.m */,
 				1C9C0EE41AE7A4F7001E4DA2 /* AppDelegate.h */,
 				1C9C0EE51AE7A4F7001E4DA2 /* AppDelegate.m */,
 				1C9C0EE71AE7A4F7001E4DA2 /* ViewController.h */,
 				1C9C0EE81AE7A4F7001E4DA2 /* ViewController.m */,
 				1C9C0EEA1AE7A4F7001E4DA2 /* Main.storyboard */,
 				1C9C0EED1AE7A4F7001E4DA2 /* Images.xcassets */,
-				1C9C0EEF1AE7A4F7001E4DA2 /* LaunchScreen.xib */,
 				1C9C0EE01AE7A4F7001E4DA2 /* Supporting Files */,
+				1C9C0F0C1AE7BA3B001E4DA2 /* SampleEntity.h */,
+				1C9C0F0D1AE7BA3B001E4DA2 /* SampleEntity.m */,
+				1C9C0F0F1AE7BA93001E4DA2 /* SampleModel.h */,
+				1C9C0F101AE7BA93001E4DA2 /* SampleModel.m */,
+				1C9C0F121AE7C100001E4DA2 /* SampleCell.h */,
+				1C9C0F131AE7C100001E4DA2 /* SampleCell.m */,
 			);
-			path = AttributedSearchFiltering;
+			path = QualifierSearchParser;
 			sourceTree = "<group>";
 		};
 		1C9C0EE01AE7A4F7001E4DA2 /* Supporting Files */ = {
@@ -102,29 +96,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1C9C0EF91AE7A4F8001E4DA2 /* AttributedSearchFilteringTests */ = {
-			isa = PBXGroup;
-			children = (
-				1C9C0EFC1AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.m */,
-				1C9C0EFA1AE7A4F8001E4DA2 /* Supporting Files */,
-			);
-			path = AttributedSearchFilteringTests;
-			sourceTree = "<group>";
-		};
-		1C9C0EFA1AE7A4F8001E4DA2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C9C0EFB1AE7A4F8001E4DA2 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C9C0EDC1AE7A4F7001E4DA2 /* AttributedSearchFiltering */ = {
+		1C9C0EDC1AE7A4F7001E4DA2 /* QualifierSearchParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C9C0F001AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "AttributedSearchFiltering" */;
+			buildConfigurationList = 1C9C0F001AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "QualifierSearchParser" */;
 			buildPhases = (
 				1C9C0ED91AE7A4F7001E4DA2 /* Sources */,
 				1C9C0EDA1AE7A4F7001E4DA2 /* Frameworks */,
@@ -134,28 +111,10 @@
 			);
 			dependencies = (
 			);
-			name = AttributedSearchFiltering;
+			name = QualifierSearchParser;
 			productName = AttributedSearchFiltering;
 			productReference = 1C9C0EDD1AE7A4F7001E4DA2 /* AttributedSearchFiltering.app */;
 			productType = "com.apple.product-type.application";
-		};
-		1C9C0EF51AE7A4F8001E4DA2 /* AttributedSearchFilteringTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C9C0F031AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "AttributedSearchFilteringTests" */;
-			buildPhases = (
-				1C9C0EF21AE7A4F8001E4DA2 /* Sources */,
-				1C9C0EF31AE7A4F8001E4DA2 /* Frameworks */,
-				1C9C0EF41AE7A4F8001E4DA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C9C0EF81AE7A4F8001E4DA2 /* PBXTargetDependency */,
-			);
-			name = AttributedSearchFilteringTests;
-			productName = AttributedSearchFilteringTests;
-			productReference = 1C9C0EF61AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +128,9 @@
 					1C9C0EDC1AE7A4F7001E4DA2 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					1C9C0EF51AE7A4F8001E4DA2 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 1C9C0EDC1AE7A4F7001E4DA2;
-					};
 				};
 			};
-			buildConfigurationList = 1C9C0ED81AE7A4F7001E4DA2 /* Build configuration list for PBXProject "AttributedSearchFiltering" */;
+			buildConfigurationList = 1C9C0ED81AE7A4F7001E4DA2 /* Build configuration list for PBXProject "QualifierSearchParser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C9C0EDC1AE7A4F7001E4DA2 /* AttributedSearchFiltering */,
-				1C9C0EF51AE7A4F8001E4DA2 /* AttributedSearchFilteringTests */,
+				1C9C0EDC1AE7A4F7001E4DA2 /* QualifierSearchParser */,
 			);
 		};
 /* End PBXProject section */
@@ -200,15 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9C0EEC1AE7A4F7001E4DA2 /* Main.storyboard in Resources */,
-				1C9C0EF11AE7A4F7001E4DA2 /* LaunchScreen.xib in Resources */,
 				1C9C0EEE1AE7A4F7001E4DA2 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C9C0EF41AE7A4F8001E4DA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,29 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9C0F0E1AE7BA3B001E4DA2 /* SampleEntity.m in Sources */,
 				1C9C0EE91AE7A4F7001E4DA2 /* ViewController.m in Sources */,
 				1C9C0EE61AE7A4F7001E4DA2 /* AppDelegate.m in Sources */,
+				1C9C0F141AE7C101001E4DA2 /* SampleCell.m in Sources */,
+				1C9C0F0B1AE7B916001E4DA2 /* NSString+QualifierSearchParser.m in Sources */,
 				1C9C0EE31AE7A4F7001E4DA2 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C9C0EF21AE7A4F8001E4DA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C9C0EFD1AE7A4F8001E4DA2 /* AttributedSearchFilteringTests.m in Sources */,
+				1C9C0F111AE7BA93001E4DA2 /* SampleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1C9C0EF81AE7A4F8001E4DA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1C9C0EDC1AE7A4F7001E4DA2 /* AttributedSearchFiltering */;
-			targetProxy = 1C9C0EF71AE7A4F8001E4DA2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1C9C0EEA1AE7A4F7001E4DA2 /* Main.storyboard */ = {
@@ -250,14 +184,6 @@
 				1C9C0EEB1AE7A4F7001E4DA2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C9C0EEF1AE7A4F7001E4DA2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C9C0EF01AE7A4F7001E4DA2 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AttributedSearchFiltering/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/QualifierSearchParser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,50 +285,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AttributedSearchFiltering/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/QualifierSearchParser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		1C9C0F041AE7A4F8001E4DA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AttributedSearchFilteringTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttributedSearchFiltering.app/AttributedSearchFiltering";
-			};
-			name = Debug;
-		};
-		1C9C0F051AE7A4F8001E4DA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AttributedSearchFilteringTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttributedSearchFiltering.app/AttributedSearchFiltering";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C9C0ED81AE7A4F7001E4DA2 /* Build configuration list for PBXProject "AttributedSearchFiltering" */ = {
+		1C9C0ED81AE7A4F7001E4DA2 /* Build configuration list for PBXProject "QualifierSearchParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C9C0EFE1AE7A4F8001E4DA2 /* Debug */,
@@ -411,21 +303,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C9C0F001AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "AttributedSearchFiltering" */ = {
+		1C9C0F001AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "QualifierSearchParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C9C0F011AE7A4F8001E4DA2 /* Debug */,
 				1C9C0F021AE7A4F8001E4DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		1C9C0F031AE7A4F8001E4DA2 /* Build configuration list for PBXNativeTarget "AttributedSearchFilteringTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C9C0F041AE7A4F8001E4DA2 /* Debug */,
-				1C9C0F051AE7A4F8001E4DA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

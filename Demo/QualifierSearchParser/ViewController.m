@@ -49,7 +49,7 @@
 
 - (void)_updateFilteredElements:(NSString*)searchFilter
 {
-    NSDictionary *filter = [searchFilter qualifierSearchParser_parseFromString:searchFilter qualifiers:@[@"year", @"category"]];
+    NSDictionary *filter = [searchFilter qualifierSearchParser_parseQualifiers:@[@"year", @"category"]];
     NSString *yearFilter = filter[@"year"];
     NSString *categoryFilter = filter[@"category"];
     NSString *query = filter[@"_query"];

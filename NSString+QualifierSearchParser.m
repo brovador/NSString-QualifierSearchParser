@@ -10,13 +10,14 @@
 
 @implementation NSString (QualifierSearchParser)
 
-- (NSDictionary*)qualifierSearchParser_parseFromString:(NSString *)queryString qualifiers:(NSArray*)queryParameters
+- (NSDictionary*)qualifierSearchParser_parseQualifiers:(NSArray*)queryParameters
 {
     NSMutableDictionary *matches = [NSMutableDictionary new];
     NSString *paramRegexTemplate = @"%@:(\\\"[\\w\\s]+\\\"|\\w+)\\s*";
     
-    __block NSString *remainingQueryString = [NSMutableString stringWithString:queryString];
+    __block NSString *remainingQueryString = [NSMutableString stringWithString:self];
     __block NSError *error = nil;
+    __weak NSString *weakSelf = self;
     [queryParameters enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         NSString *parameter = (NSString*)obj;
         NSString *parameterRegex = [NSString stringWithFormat:paramRegexTemplate, parameter];
@@ -25,12 +26,12 @@
                                       options:NSRegularExpressionCaseInsensitive
                                       error:&error];
         
-        [regEx enumerateMatchesInString:queryString
+        [regEx enumerateMatchesInString:self
                                 options:kNilOptions
-                                  range:NSMakeRange(0, queryString.length)
+                                  range:NSMakeRange(0, weakSelf.length)
                              usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, BOOL *stop) {
                                  
-                                 NSString *resultString = [queryString substringWithRange:result.range];
+                                 NSString *resultString = [weakSelf substringWithRange:result.range];
                                  NSString *cleanResult = [resultString stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"%@:", parameter]
                                                                                       withString:@""];
                                  cleanResult = [cleanResult stringByReplacingOccurrencesOfString:@"\"" withString:@""];

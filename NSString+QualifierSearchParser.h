@@ -16,6 +16,6 @@
  The returned dictionary will contain a value for each qualifier and an special key "_query" for the
  non qualifier text in the queryString.
  */
-- (NSDictionary*)qualifierSearchParser_parseFromString:(NSString *)queryString qualifiers:(NSArray*)queryParameters;
+- (NSDictionary*)qualifierSearchParser_parseQualifiers:(NSArray*)queryParameters;
 
 @end
